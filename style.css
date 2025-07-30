@@ -1,8 +1,12 @@
-p {
-	color: red;
-	font-size: 42px;
+body {
+	font-family: "Bitcount Prop Single", system-ui;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden; /* Empêche le défilement */
+    font-family: Arial, sans-serif;
+    cursor: none; /* Cache le curseur par défaut */
 }
 
-body {
-	background-color: yellow;
+#blocSuiveur {
+    position: absolute;
 }
